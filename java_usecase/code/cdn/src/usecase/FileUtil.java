@@ -1,4 +1,4 @@
-package com.filetool.util;
+package usecase;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

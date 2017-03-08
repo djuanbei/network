@@ -1,6 +1,5 @@
 package usecase;
 
-import com.filetool.util.FileUtil;
 
 public class StartGenerate {
 	public static void main(String[] args) {
@@ -30,8 +29,8 @@ public class StartGenerate {
 		GenerateCase generateCase = new GenerateCase(casefilePath, pointNum, edgeNum, userNum, serverCost, bandWidth, rentWeight, needWidth,pointNumScope, perEdgeNumScope, userNumScope, serverCostScope, bandWidthScope,rentWeightSope,needWidthScope,rentWWeightType,bandWidthType);
 		
 		// 读取输入文件
-		String[] graphContent = FileUtil.read(casefilePath, null);
-		showCase(graphContent);
+//		String[] graphContent = FileUtil.read(casefilePath, null);
+//		showCase(graphContent);
 		
 	}
 	

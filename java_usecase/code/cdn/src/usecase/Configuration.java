@@ -77,27 +77,27 @@ public class Configuration {
 		rentWWeightType = props.getProperty("rentWWeightType");
 		bandWidthType = props.getProperty("bandWidthType");
 		System.out.println("===  Configuration已经加载configuration.properties配置文件并初始化所有配置 ===");
-		System.out.println("configFilePath: " + configFilePath);
-		System.out.println("caseFilePath: " + caseFilePath);
-		System.out.println("===================================================");
-		System.out.println("pointNumScope: " + pointNumScope);
-		System.out.println("perEdgeNumScope: " + perEdgeNumScope);
-		System.out.println("userNumScope: " + userNumScope );
-		System.out.println("serverCostScope: " + serverCostScope);
-		System.out.println("bandWidthScope: " + bandWidthScope);
-		System.out.println("rentWeightScope: " + rentWeightScope);
-		System.out.println("needWidthScope: " + needWidthScope );
-		System.out.println("===================================================");
-		System.out.println("pointNum: " + pointNum);
-		System.out.println("edgeNum: " + edgeNum);
-		System.out.println("userNum: " + userNum);
-		System.out.println("serverCost: " + serverCost);
-		System.out.println("bandWidth: " + bandWidth);
-		System.out.println("rentWeight: " + rentWeight);
-		System.out.println("needWidth: " + needWidth);
-		System.out.println("===================================================");
-		System.out.println("rentWWeightType: " + rentWWeightType);
-		System.out.println("bandWidthType: " + bandWidthType);
+//		System.out.println("configFilePath: " + configFilePath);
+//		System.out.println("caseFilePath: " + caseFilePath);
+//		System.out.println("===================================================");
+//		System.out.println("pointNumScope: " + pointNumScope);
+//		System.out.println("perEdgeNumScope: " + perEdgeNumScope);
+//		System.out.println("userNumScope: " + userNumScope );
+//		System.out.println("serverCostScope: " + serverCostScope);
+//		System.out.println("bandWidthScope: " + bandWidthScope);
+//		System.out.println("rentWeightScope: " + rentWeightScope);
+//		System.out.println("needWidthScope: " + needWidthScope );
+//		System.out.println("===================================================");
+//		System.out.println("pointNum: " + pointNum);
+//		System.out.println("edgeNum: " + edgeNum);
+//		System.out.println("userNum: " + userNum);
+//		System.out.println("serverCost: " + serverCost);
+//		System.out.println("bandWidth: " + bandWidth);
+//		System.out.println("rentWeight: " + rentWeight);
+//		System.out.println("needWidth: " + needWidth);
+//		System.out.println("===================================================");
+//		System.out.println("rentWWeightType: " + rentWWeightType);
+//		System.out.println("bandWidthType: " + bandWidthType);
 	}
 
 
