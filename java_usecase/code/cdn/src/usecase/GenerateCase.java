@@ -9,7 +9,6 @@ import java.util.Random;
 import java.util.Set;
 
 
-import com.filetool.util.FileUtil;
 
 public class GenerateCase {
 	List<String> lines = new LinkedList<String>();

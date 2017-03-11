@@ -1,6 +1,7 @@
-package usecase;
+package graphcase;
 
 import config.Configuration;
+
 
 
 public class StartGenerate {
@@ -31,7 +32,7 @@ public class StartGenerate {
 		GenerateCase generateCase = new GenerateCase(casefilePath, pointNum, edgeNum, userNum, serverCost, bandWidth, rentWeight, needWidth,pointNumScope, perEdgeNumScope, userNumScope, serverCostScope, bandWidthScope,rentWeightSope,needWidthScope,rentWWeightType,bandWidthType);
 		
 		// 读取输入文件
-		String[] graphContent = FileUtil.read(casefilePath, null);
+		String[] graphContent = MathUtil.read(casefilePath, null);
 		showCase(graphContent);
 		
 	}
@@ -41,7 +42,7 @@ public class StartGenerate {
 	 * @param graphContent
 	 */
 	public static void showCase(String[] graphContent) {
-		System.out.println("====================================");
+		System.out.println("===========共："+graphContent.length+" 行=====================");
 		for (int i = 0; i < graphContent.length; i++) {
 			System.out.println(graphContent[i]);
 			System.out.println("====================================");
